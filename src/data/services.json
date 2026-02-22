@@ -1,0 +1,144 @@
+[
+  {
+    "id": "srv_001",
+    "name": "Garage Moderne de Cotonou",
+    "category": "Mécanique",
+    "description": "Réparation automobile toutes marques, diagnostic électronique et entretien rapide.",
+    "location": {
+      "address": "Av. Steinmetz, Lot 45",
+      "city": "Cotonou",
+      "coordinates": { "lat": 6.3654, "lng": 2.4183 }
+    },
+    "availability": {
+      "isOpen": true,
+      "hours": "08:00 - 18:30",
+      "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+    },
+    "pricing": {
+      "basePrice": 5000,
+      "currency": "XOF",
+      "unit": "fixed"
+    },
+    "rating": 4.5,
+    "reviewCount": 128,
+    "contact": {
+      "phone": "+229 97 00 00 00",
+      "whatsapp": "+229 97 00 00 00"
+    },
+    "verified": true,
+    "images": ["https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=1000"]
+  },
+  {
+    "id": "srv_002",
+    "name": "Salon Élégance Afro",
+    "category": "Coiffure",
+    "description": "Tresses africaines, soins capillaires naturels et maquillage professionnel.",
+    "location": {
+      "address": "Quartier Haie Vive",
+      "city": "Cotonou",
+      "coordinates": { "lat": 6.3540, "lng": 2.3980 }
+    },
+    "availability": {
+      "isOpen": true,
+      "hours": "09:00 - 20:00",
+      "days": ["Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    },
+    "pricing": {
+      "basePrice": 2000,
+      "currency": "XOF",
+      "unit": "service"
+    },
+    "rating": 4.8,
+    "reviewCount": 85,
+    "contact": {
+      "phone": "+229 66 00 00 00"
+    },
+    "verified": true,
+    "images": ["https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&q=80&w=1000"]
+  },
+  {
+    "id": "srv_003",
+    "name": "Plomberie Express 24/7",
+    "category": "Plomberie",
+    "description": "Dépannage d'urgence, installation sanitaire et débouchage de canalisations.",
+    "location": {
+      "address": "Godomey, Carrefour IITA",
+      "city": "Abomey-Calavi",
+      "coordinates": { "lat": 6.4000, "lng": 2.3500 }
+    },
+    "availability": {
+      "isOpen": true,
+      "hours": "24/24",
+      "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    },
+    "pricing": {
+      "basePrice": 10000,
+      "currency": "XOF",
+      "unit": "fixed"
+    },
+    "rating": 4.2,
+    "reviewCount": 45,
+    "contact": {
+      "phone": "+229 95 00 00 00",
+      "whatsapp": "+229 95 00 00 00"
+    },
+    "verified": false,
+    "images": ["https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80&w=1000"]
+  },
+  {
+    "id": "srv_004",
+    "name": "Maquis Le Bon Goût",
+    "category": "Restauration",
+    "description": "Spécialités béninoises : Amiwo, Igname pilée, Sauce graine. Ambiance conviviale.",
+    "location": {
+      "address": "Porto-Novo, Quartier Ouando",
+      "city": "Porto-Novo",
+      "coordinates": { "lat": 6.4972, "lng": 2.6250 }
+    },
+    "availability": {
+      "isOpen": false,
+      "hours": "11:00 - 23:00",
+      "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    },
+    "pricing": {
+      "basePrice": 1500,
+      "currency": "XOF",
+      "unit": "service"
+    },
+    "rating": 4.6,
+    "reviewCount": 210,
+    "contact": {
+      "phone": "+229 94 00 00 00"
+    },
+    "verified": true,
+    "images": ["https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&q=80&w=1000"]
+  },
+  {
+    "id": "srv_005",
+    "name": "Clinique Espoir Vie",
+    "category": "Santé",
+    "description": "Soins médicaux généraux, pédiatrie et maternité. Laboratoire d'analyses sur place.",
+    "location": {
+      "address": "Parakou, Quartier Zongo",
+      "city": "Parakou",
+      "coordinates": { "lat": 9.3371, "lng": 2.6303 }
+    },
+    "availability": {
+      "isOpen": true,
+      "hours": "24/24",
+      "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    },
+    "pricing": {
+      "basePrice": 2000,
+      "currency": "XOF",
+      "unit": "fixed"
+    },
+    "rating": 4.3,
+    "reviewCount": 78,
+    "contact": {
+      "phone": "+229 23 00 00 00"
+    },
+    "verified": true,
+    "images": ["https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000"]
+  }
+]

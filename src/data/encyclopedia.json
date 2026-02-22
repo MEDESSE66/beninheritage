@@ -1,7 +1,92 @@
 {
   "categories": [
-    { "id": "history", "name": "Histoire" },
-    { "id": "culture", "name": "Culture" },
-    { "id": "geography", "name": "Géographie" }
+    { 
+      "id": "patronymes", 
+      "name": "Patronymes", 
+      "description": "Origine et signification des noms de famille béninois" 
+    },
+    { 
+      "id": "adages", 
+      "name": "Adages & Proverbes", 
+      "description": "Sagesse populaire, expressions et leurs contextes" 
+    },
+    { 
+      "id": "langues", 
+      "name": "Langues & Ethnies", 
+      "description": "Diversité linguistique et groupes ethniques du Bénin" 
+    },
+    { 
+      "id": "geographie", 
+      "name": "Géographie Urbaine", 
+      "description": "Villes, quartiers historiques et lieux emblématiques" 
+    },
+    { 
+      "id": "artisanat", 
+      "name": "Artisanat & Textile", 
+      "description": "Savoir-faire traditionnel, tissus et art" 
+    }
+  ],
+  "patronymes": [
+    {
+      "id": "pat_001",
+      "name": "Dossou",
+      "origin": "Fon / Goun",
+      "meaning": "Enfant né après des jumeaux (garçon)",
+      "region": ["Sud Bénin"],
+      "variants": ["Dossou-Yovo"],
+      "sources": [{ "title": "Tradition orale", "year": 2024 }]
+    },
+    {
+      "id": "pat_002",
+      "name": "Koubourath",
+      "origin": "Yoruba / Nago",
+      "meaning": "Celle qui est née dans la grandeur",
+      "region": ["Plateau", "Ouémé"],
+      "sources": [{ "title": "Noms et Culture Yoruba", "author": "A. Adéwalé" }]
+    }
+  ],
+  "adages": [
+    {
+      "id": "adg_001",
+      "expression": "Nou dé dji wè, gbè dé do",
+      "language": "Fon",
+      "translation": "C'est sur quelque chose que la parole repose",
+      "meaning": "Il n'y a pas de fumée sans feu; chaque rumeur ou événement a une cause.",
+      "context": "Utilisé pour signifier qu'une situation n'est pas fortuite.",
+      "sources": [{ "title": "Proverbes du Bénin", "year": 2010 }]
+    }
+  ],
+  "langues": [
+    {
+      "id": "lng_001",
+      "name": "Fon",
+      "family": "Gbe (Kwa)",
+      "ethnic_groups": ["Fon"],
+      "region": ["Atlantique", "Littoral", "Zou"],
+      "speakers_estimate": "1.7 million",
+      "sources": [{ "title": "Ethnologue", "url": "https://www.ethnologue.com" }]
+    }
+  ],
+  "geographie": [
+    {
+      "id": "geo_001",
+      "name": "Porto-Novo",
+      "type": "City",
+      "region": "Ouémé",
+      "description": "Capitale officielle du Bénin, connue pour son architecture afro-brésilienne.",
+      "population": "264,000",
+      "sources": [{ "title": "Recensement INSAE", "year": 2013 }]
+    }
+  ],
+  "artisanat": [
+    {
+      "id": "art_001",
+      "name": "Kanvo (Pagne tissé)",
+      "type": "Textile",
+      "materials": ["Coton"],
+      "region": ["Abomey", "Nord Bénin"],
+      "cultural_significance": "Symbole de prestige, porté lors des grandes cérémonies et par la royauté.",
+      "sources": [{ "title": "Artisanat du Bénin", "url": "https://artisanat.bj" }]
+    }
   ]
 }
