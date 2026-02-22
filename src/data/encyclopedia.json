@@ -1,0 +1,7 @@
+{
+  "categories": [
+    { "id": "history", "name": "Histoire" },
+    { "id": "culture", "name": "Culture" },
+    { "id": "geography", "name": "Géographie" }
+  ]
+}
